@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins;
+  background-color: rgb(238, 245, 215);
+}
+
+section {
+  margin-left: 200px;
+  color: #000000;
+}
+
+#page-container {
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+/*-- home section */
+.welcome {
+  margin-left: 50px;
+  text-align: center;
+  width: 1000px;
+  position: absolute;
+}
+
+.jungle-pic {
+  size: 300px;
+  z-index: -2;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.welcome h1 {
+  padding-top: 50px;
+  font-size: 40px;
+}
+
+.welcome h2 {
+  font-size: 40px;
+}
+
+.lj {
+  width: 800px;
+  margin: auto;
+  margin-top: -100px;
+}
+
+.introduction {
+  padding: 100px;
+  padding-top: 400px;
+
+  float: right;
+}
+
+.introduction h3 {
+  line-height: 100px;
+}
+
+.introduction p {
+  padding: 30px 80px;
+  margin-left: 320px;
+}
+
+#hero {
+  float: left;
+}
+
+/*-- personal attention about section */
+
+#personal-attention {
+  width: 700px;
+  float: right;
+}
+
+.personal-attention h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.next-to-PA {
+  padding: 20px 90px;
+}
+
+#footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  background-color: blue;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    margin-left: 0px;
+  }
+
+  .jungle-pic {
+    top: 50px;
+  }
+}
